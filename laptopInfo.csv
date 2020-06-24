@@ -1,4 +1,4 @@
-Title,Specs,Price
+Title,Price,Specifications
 Asus VivoBook Gaming Core i5 8th Gen - (8 GB/512 GB SSD/Windows 10 Home/4 GB Graphics/NVIDIA Geforce G...,"Rs. 49,490",Intel Core i5 Processor (8th Gen)
 ,,8 GB DDR4 RAM
 ,,64 bit Windows 10 Operating System
@@ -6,15 +6,7 @@ Asus VivoBook Gaming Core i5 8th Gen - (8 GB/512 GB SSD/Windows 10 Home/4 GB Gra
 ,,39.62 cm (15.6 inch) Display
 ,,1 Year Onsite Warranty
 ,,
-Acer Nitro 5 Ryzen 5 Quad Core - (8 GB/1 TB HDD/Windows 10 Home/4 GB Graphics/AMD Radeon RX 560X) AN51...,"Rs. 49,990",60 Hz Refresh Rate- It can display upto 60 frames per second.
-,,AMD Ryzen 5 Quad Core Processor
-,,8 GB DDR4 RAM
-,,64 bit Windows 10 Operating System
-,,1 TB HDD
-,,39.62 cm (15.6 inch) Display
-,,1 Year International Travelers Warranty (ITW)
-,,
-HP Pavilion Ryzen 5 Quad Core - (8 GB/1 TB HDD/Windows 10 Home/3 GB Graphics/NVIDIA Geforce GTX 1050) ...,"Rs. 49,990",AMD Ryzen 5 Quad Core Processor
+HP Pavilion Core i5 9th Gen - (8 GB/1 TB HDD/Windows 10 Home/3 GB Graphics/NVIDIA Geforce GTX 1050) 15...,"Rs. 49,990",Intel Core i5 Processor (9th Gen)
 ,,8 GB DDR4 RAM
 ,,64 bit Windows 10 Operating System
 ,,1 TB HDD
@@ -35,7 +27,15 @@ Asus VivoBook Ryzen 5 Quad Core - (8 GB/1 TB HDD/Windows 10 Home) X505ZA-EJ509TX
 ,,39.62 cm (15.6 inch) Display
 ,,1 Year Onsite Warranty
 ,,
-HP Pavilion Core i5 9th Gen - (8 GB/1 TB HDD/Windows 10 Home/3 GB Graphics/NVIDIA Geforce GTX 1050) 15...,"Rs. 49,990",Intel Core i5 Processor (9th Gen)
+Acer Nitro 5 Ryzen 5 Quad Core - (8 GB/1 TB HDD/Windows 10 Home/4 GB Graphics/AMD Radeon RX 560X) AN51...,"Rs. 49,990",60 Hz Refresh Rate- It can display upto 60 frames per second.
+,,AMD Ryzen 5 Quad Core Processor
+,,8 GB DDR4 RAM
+,,64 bit Windows 10 Operating System
+,,1 TB HDD
+,,39.62 cm (15.6 inch) Display
+,,1 Year International Travelers Warranty (ITW)
+,,
+HP Pavilion Ryzen 5 Quad Core - (8 GB/1 TB HDD/Windows 10 Home/3 GB Graphics/NVIDIA Geforce GTX 1050) ...,"Rs. 49,990",AMD Ryzen 5 Quad Core Processor
 ,,8 GB DDR4 RAM
 ,,64 bit Windows 10 Operating System
 ,,1 TB HDD
@@ -86,6 +86,14 @@ HP Pavilion 15-EC Ryzen 5 Quad Core - (8 GB/1 TB HDD/128 GB SSD/Windows 10 Home/
 ,,39.62 cm (15.6 inch) Display
 ,,1 Year Onsite Warranty
 ,,
+Acer Nitro 5 Ryzen 5 Quad Core - (8 GB/1 TB HDD/256 GB SSD/Windows 10 Home/4 GB Graphics/AMD Radeon RX...,"Rs. 54,990",60 Hz Refresh Rate- It can display upto 60 frames per second.
+,,AMD Ryzen 5 Quad Core Processor
+,,8 GB DDR4 RAM
+,,64 bit Windows 10 Operating System
+,,1 TB HDD|256 GB SSD
+,,39.62 cm (15.6 inch) Display
+,,1 Year International Travelers Warranty (ITW)
+,,
 Acer Nitro 5 Ryzen 5 Quad Core - (8 GB/1 TB HDD/Windows 10 Home/4 GB Graphics/AMD Radeon RX 560X) AN51...,"Rs. 54,990",Optimized Dolby Audio Premium Sound Enhancement
 ,,"AMD Radeon RX 560X Graphics Card, Allows Smooth Game Play"
 ,,FineTip Backlit Keyboard with Independent Standard Numeric Keypad
@@ -102,14 +110,6 @@ HP Pavilion Gaming Ryzen 5 Quad Core - (8 GB/1 TB HDD/Windows 10 Home/4 GB Graph
 ,,1 TB HDD
 ,,39.62 cm (15.6 inch) Display
 ,,1 Year Onsite Warranty
-,,
-Acer Nitro 5 Ryzen 5 Quad Core - (8 GB/1 TB HDD/256 GB SSD/Windows 10 Home/4 GB Graphics/AMD Radeon RX...,"Rs. 54,990",60 Hz Refresh Rate- It can display upto 60 frames per second.
-,,AMD Ryzen 5 Quad Core Processor
-,,8 GB DDR4 RAM
-,,64 bit Windows 10 Operating System
-,,1 TB HDD|256 GB SSD
-,,39.62 cm (15.6 inch) Display
-,,1 Year International Travelers Warranty (ITW)
 ,,
 Lenovo Ideapad L340 Core i5 9th Gen - (8 GB/1 TB HDD/Windows 10 Home/4 GB Graphics/NVIDIA Geforce GTX ...,"Rs. 56,990",60 Hz Refresh Rate- It can display upto 60 frames per second.
 ,,Intel Core i5 Processor (9th Gen)
@@ -148,6 +148,13 @@ MSI GL Series Core i5 8th Gen - (8 GB/1 TB HDD/Windows 10 Home/4 GB Graphics/NVI
 ,,39.62 cm (15.6 inch) Display
 ,,2 Years Carry In Warranty
 ,,
+HP Pavilion Gaming Core i5 9th Gen - (8 GB/1 TB HDD/Windows 10 Home/4 GB Graphics/NVIDIA Geforce GTX 1...,"Rs. 60,990",Intel Core i5 Processor (9th Gen)
+,,8 GB DDR4 RAM
+,,64 bit Windows 10 Operating System
+,,1 TB HDD
+,,39.62 cm (15.6 inch) Display
+,,1 Year Onsite Warranty
+,,
 Lenovo Ideapad L340 Core i5 9th Gen - (8 GB/1 TB HDD/256 GB SSD/Windows 10 Home/4 GB Graphics/NVIDIA G...,"Rs. 60,990",Intel Core i5 Processor (9th Gen)
 ,,8 GB DDR4 RAM
 ,,64 bit Windows 10 Operating System
@@ -170,11 +177,4 @@ Asus ROG Strix G Core i5 9th Gen - (8 GB/1 TB HDD/256 GB SSD/Windows 10 Home/4 G
 ,,1 TB HDD|256 GB SSD
 ,,39.62 cm (15.6 inch) Display
 ,,1 Year Limited International Hardware Warranty
-,,
-Asus ROG Strix G Core i5 9th Gen - (8 GB/1 TB SSD/Windows 10 Home/4 GB Graphics/NVIDIA Geforce GTX 165...,"Rs. 64,990",Intel Core i5 Processor (9th Gen)
-,,8 GB DDR4 RAM
-,,64 bit Windows 10 Operating System
-,,1 TB SSD
-,,39.62 cm (15.6 inch) Display
-,,1 Year Onsite Warranty
 ,,

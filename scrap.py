@@ -40,6 +40,6 @@ for item in items:
 
 with open('laptopInfo.csv', 'w', newline='', encoding="utf-8") as file:
   writer = csv.writer(file)
-  writer.writerow(["Title", "Specs", "Price"])
+  writer.writerow(["Title", "Price", "Specifications"])
   writer.writerows(list_of_rows)
     
