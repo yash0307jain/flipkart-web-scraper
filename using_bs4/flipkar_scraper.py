@@ -38,7 +38,7 @@ for item in items:
   list_of_rows.append(["", "", ""])
 
 
-with open('laptopInfo.csv', 'w', newline='', encoding="utf-8") as file:
+with open('data/laptop_data.csv', 'w', newline='', encoding="utf-8") as file:
   writer = csv.writer(file)
   writer.writerow(["Title", "Price", "Specifications"])
   writer.writerows(list_of_rows)
