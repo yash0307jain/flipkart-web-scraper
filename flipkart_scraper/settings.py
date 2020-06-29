@@ -68,7 +68,7 @@ ITEM_PIPELINES = {
    'scrapy.pipelines.images.ImagesPipeline': 1
 }
 
-IMAGES_STORE = "./flipkart_scraper/data/img"
+IMAGES_STORE = "./data/img"
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://docs.scrapy.org/en/latest/topics/autothrottle.html
