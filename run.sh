@@ -1,1 +1,1 @@
-scrapy crawl flipkart_scraper
+scrapy crawl flipkart_scraper -o ./flipkart_scraper/data/data.json

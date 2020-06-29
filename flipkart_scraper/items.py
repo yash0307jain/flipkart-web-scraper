@@ -8,7 +8,11 @@
 import scrapy
 
 
-class FlipkartScraperItem(scrapy.Item):
+class Laptop(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    pass
+    name = scrapy.Field()
+    price = scrapy.Field()
+    highlight = scrapy.Field()
+    specification = scrapy.Field()
+    rating = scrapy.Field()

@@ -1,4 +1,5 @@
 import scrapy
+from ..items import Laptop
 
 class FlipkartScraper(scrapy.Spider):
   name = "flipkart_scraper"
@@ -18,35 +19,40 @@ class FlipkartScraper(scrapy.Spider):
     for laptop in laptops:
       laptopUrl = response.urljoin(laptop)
       yield scrapy.Request(url = laptopUrl, callback = self.parse_laptop, headers = self.headers)
-      break
 
   def parse_laptop(self, response):
     laptopName = response.xpath("//span[@class='_35KyD6']//text()").get()
     laptopPrice = response.xpath("//div[@class='_1vC4OE _3qQ9m1']//text()").get()
     laptopHighlights = response.xpath("//div[@class='g2dDAR']/div[@class='_3WHvuP']/ul/li[@class='_2-riNZ']//text()").getall()
+    laptopSpec = response.xpath("//div[@class='MocXoX']/div/div[@class='_3Rrcbo V39ti-']/div[@class='_2RngUh']")
+    
     laptopSpecifications = []
 
-    laptopSpec = response.xpath("//div[@class='MocXoX']/div/div[@class='_3Rrcbo V39ti-']/div[@class='_2RngUh']")
     for spec in laptopSpec:
       tempSpec = []
+
       specTitle = spec.xpath("div[@class='_2lzn0o']/text()").get()
+      specItems = spec.xpath("table[@class='_3ENrHu']/tbody/tr[@class='_3_6Uyw row']")
+      
       tempSpec.append(specTitle)
 
-      deepSpec = []
-      specItems = spec.xpath("table[@class='_3ENrHu']/tbody/tr[@class='_3_6Uyw row']")
+      detailSpec = []
+
       for item in specItems:
-        tempDeepSpec = []
+        tempDetailSpec = []
+
         specLabel = item.xpath("td[@class='_3-wDH3 col col-3-12']//text()").get()
         specValue = item.xpath("td[@class='_2k4JXJ col col-9-12']//text()").get()
 
-        tempDeepSpec.append(specLabel)
-        tempDeepSpec.append(specValue)
+        tempDetailSpec.append(specLabel)
+        tempDetailSpec.append(specValue)
 
-        deepSpec.append(tempDeepSpec)
+        detailSpec.append(tempDetailSpec)
 
-      tempSpec.append(deepSpec)
-
+      tempSpec.append(detailSpec)
       laptopSpecifications.append(tempSpec)
     
     laptopRating = response.xpath("//div[@class='col-12-12 _11EBw0']/div[@class='_1i0wk8']//text()").get()
+    
+    yield Laptop(name = laptopName, price = laptopPrice, highlight = laptopHighlights, specification = laptopSpecifications, rating = laptopRating)
     
